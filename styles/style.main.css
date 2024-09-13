@@ -17,26 +17,36 @@ img{
 
 header{
     background-color: #575bce;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+    /*margin: 10px auto 40px auto;*/
+    margin: 10px auto;
+    border-radius: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 1300px; */
+    max-width: 90%;
 }
-@media  screen and (max-width:700px) {
-    .sobre img{
+@media  screen and (max-width:500px) {
+    /*.sobre img{
         width: 100%;
-    }
-    .img-perfil{
+    }*/
+    /*.img-perfil{
         width: 100%;
-    }
-    .link-project button{
+    }*/
+    /*.link-project button{
         width: 100px;
-    }
+    }*/
+
 }
 
 .navigation {
     display: flex;
-    justify-content: center;
+    margin: 10px auto 40px auto;
     align-items: center;
     border-radius: 1.2em;  
-    max-width: 960px;
+    /*max-width: 960px;*/
+    justify-content: space-between;
     height: 50px;  
     margin: 0 auto;
 }
@@ -44,14 +54,23 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
+   
+   
 }
 
 .navigation a {
     color: white;
+    
+   
+    
 }
 
 .navigation a:hover {
-    color: #77A1D9;
+    /*color: #77A1D9;*/
+    color: white;
+    background-color: #fbcd95;
+    border-radius: 1.2em;  
 }
 
 .navigation ul {
@@ -59,21 +78,32 @@ header{
     list-style: none;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    
+    
 }
-
+/*.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}*/
 .list a {
+    
     text-decoration: none;
-    padding: 15px;
+    /*margin:0 15px;*/
     font-size: 1.3em;
+    
 }
 .sobre{
     justify-content: center;
-    max-width: 960px;
+    /*max-width: 960px;*/
     line-height: 1;
     margin: 0 auto;
     padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
+    max-width: 80%;
 }
 
 .introducao {
@@ -87,9 +117,12 @@ header{
 .introducao-texto {
     font-size: 1.25em;
     line-height: 1.4;
+    
+
     margin-bottom: 1em;
-    text-align: justify;
+    /*text-align: justify;*/
     max-width: 480px;
+    text-align: justify;
 }
 
 .name-effect {
@@ -146,12 +179,14 @@ header{
 }
 
 .cards {
-    margin: 100px ;
+    /*margin: 100px ;*/
+    gap: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    /*width: 100%;*/
     flex-wrap: wrap;
+    max-width: 80%;
 }
 
 .card img {
@@ -173,7 +208,8 @@ header{
     justify-content: center;
     align-items: flex-end;
     max-width: 300px;
-    min-width: 300px;
+    width: 300px;
+    /*min-width: 300px;*/
     height: 200px;
     background: #fff;
     border-radius: 20px;
@@ -198,7 +234,7 @@ header{
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-bottom: 200px;
+    margin: 0px 8px 200px 8px;
     text-align: center;
     overflow: hidden;
     transform: translateY(60px);
@@ -206,7 +242,7 @@ header{
     opacity: 0;
     text-align: justify;
     font-size: 15px;
-    width: 80%;
+    
 }
 
 .card:hover .text-project {
@@ -236,10 +272,11 @@ header{
     justify-content: center;
     background-color: #575bce;
     /*background-color: #464AA6;*/
-    max-width: 1300px; 
+    /*max-width: 1300px;*/
+    max-width: 85%;
     margin:40px auto;
-    padding: 20px 20px;
-    display: flex;
+    padding: 150px 20px;
+    
     flex-wrap: wrap;
     border-radius: 1.2em;
 }
@@ -302,14 +339,17 @@ footer {
     justify-content: center;
     max-width: 1300px;
     height: 100%;
+    padding: 15px ;
     flex-wrap: wrap;
     margin: 100px auto;
+    gap: 10px;
 }
 
 .contact {
     display: flex;
     justify-content: space-around;
     background-color: #121664;
+    
 }
 
 .tecnologias {
@@ -340,6 +380,7 @@ footer {
     background-color: white;
     height: 200px;
     border-radius: 1.2em;
+    max-width: 95%;
     flex-wrap: wrap;
 }
 
@@ -367,12 +408,11 @@ footer {
 }
 
 .contact-container {
-    width: 100%;
+    /*width: 100%;*/
     flex: 1;
-    max-width: 380px;
-    margin: 30px 20px;
-    padding: 0 10px;
-    background-color: #fbcd95;
+    max-width: 95%;
+    background-color: #575bce;
+    /*background-color: #fbcd95;*/
     border-radius: 1em;
     display: flex;
     align-items: center;
@@ -395,9 +435,12 @@ footer {
     margin-bottom: 40px;
     gap: 20px;
     background-color: #EDEDED;
+    
     border-radius: 1.2em;
-    width: 370px;
+    max-width: 90%;
+    /*width: 370px;*/
     height: 100px;
+    padding: 0 8px;
 }
 
 .contact-container h1 {
@@ -416,6 +459,7 @@ footer {
     color: black;
     text-align: center;
     background-color: #EDEDED;
+    
     height: 380px;
     max-width: 300px;
     width: 100%;
