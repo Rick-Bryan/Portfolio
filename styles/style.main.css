@@ -54,14 +54,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
    
    
 }
 
 .navigation a {
     color: white;
-    
+    padding: 5px
    
     
 }
@@ -70,7 +70,8 @@ header{
     /*color: #77A1D9;*/
     color: white;
     background-color: #fbcd95;
-    border-radius: 1.2em;  
+    border-radius:0.7em;
+    /*padding: 5px;*/
 }
 
 .navigation ul {
@@ -266,6 +267,7 @@ header{
     height: 200px;
 }
 
+
 .projetos {
     display: flex;
     align-items: center;
@@ -273,7 +275,7 @@ header{
     background-color: #575bce;
     /*background-color: #464AA6;*/
     /*max-width: 1300px;*/
-    max-width: 85%;
+    width: 85%;
     margin:40px auto;
     padding: 150px 20px;
     
